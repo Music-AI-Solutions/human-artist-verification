@@ -7,7 +7,6 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Mount routes
 app.include_router(nft_art.router, tags=["NFT Art"])
 app.include_router(splits.router, tags=["Splits"])
 app.include_router(splits_verify.router, tags=["Verification"])
