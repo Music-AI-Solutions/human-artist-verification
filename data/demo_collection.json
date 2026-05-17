@@ -1,0 +1,30 @@
+{
+  "nfts": [
+    {
+      "id": 1,
+      "title": "Piano Legacy NFT",
+      "artist": "Vieco Family",
+      "verified": true
+    },
+    {
+      "id": 2,
+      "title": "Dolby Atmos Demo",
+      "artist": "Kenni Velez Records",
+      "verified": false
+    }
+  ],
+  "splits": [
+    {
+      "id": 1,
+      "title": "Song A Split Sheet",
+      "contributors": ["Alice", "Bob"],
+      "percentages": [50, 50]
+    },
+    {
+      "id": 2,
+      "title": "Song B Split Sheet",
+      "contributors": ["Charlie", "Dana"],
+      "percentages": [70, 30]
+    }
+  ]
+}
